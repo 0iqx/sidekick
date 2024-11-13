@@ -56,4 +56,10 @@ Well, it can, but it’s a bit lazy.
 
 Sometimes it can correctly take and replace the values, but at least it solves the challenge without any assistance.
 
-![image](https://github.com/user-attachments/assets/895f2058-cd56-49e1-b3fe-62d899addf98)
+![image](https://github.com/user-attachments/assets/4ad2fbda-a04b-41db-b656-6ff861531ffb)
+
+Ah, don’t know how to write code? No problem. Sidekick has you covered!
+
+![image](https://github.com/user-attachments/assets/ec216e82-275b-4707-85a2-d0e8f5cb715c)
+
+Well, we used Sidekick to reverse the binary, write the code, and even fix its errors.
