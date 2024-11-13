@@ -15,28 +15,28 @@ Here’s how it works:
 
 1. **Function Analysis**: **Sidekick** dives into each function, identifying key elements, loops, calls, and variables. It breaks down the code to give you an analysis that’s more than skin-deep.
 
-2. **Insight Generation**: Based on its analysis, Sidekick offers suggestions on how to optimize or alter the function. Perhaps it will recommend replacing a certain logic with a more efficient one, or it may even spot redundant operations that you can safely remove.
+2. **Insight Generation**: Based on its analysis, **Sidekick** offers suggestions on how to optimize or alter the function. Perhaps it will recommend replacing a certain logic with a more efficient one, or it may even spot redundant operations that you can safely remove.
 
-3. **Live Recommendations**: Rather than static insights, Sidekick operates in real-time, meaning you get feedback and suggestions dynamically as you navigate through functions in your binary.
+3. **Live Recommendations**: Rather than static insights, **Sidekick** operates in real-time, meaning you get feedback and suggestions dynamically as you navigate through functions in your binary.
 
 # Sidekick in Action
 
-## Challenge 1: M47H
+## Challenge 1: M47H - FlagYard
 ![image](https://github.com/user-attachments/assets/41768d96-8b66-4bb1-b5a7-5f52b7595476)
 
-I’ll tackle this challenge using only Sidekick, as if I have no prior reverse engineering knowledge.
+I’ll tackle this challenge using only **Sidekick**, as if I have no prior reverse engineering knowledge.
 ![image](https://github.com/user-attachments/assets/2c9f4c74-df27-49e4-a6a2-c44f953c5c27)
-Let’s have Sidekick analyze the `_start` function to retrieve the flag.
+Let’s have **Sidekick** analyze the `_start` function to retrieve the flag.
 
 ![image](https://github.com/user-attachments/assets/4b195c0d-77e3-4228-af46-cf606e97a0c3)
 ![image](https://github.com/user-attachments/assets/5e0093d0-8923-4967-9d66-985e5b681c8a)
 
 
-Without even reading the decompiled code and only using Sidekick, I already know the length and some mathematical operations, like modulus. Now, let’s have Sidekick solve it.
+Without even reading the decompiled code and only using **Sidekick**, I already know the length and some mathematical operations, like modulus. Now, let’s have **Sidekick** solve it.
 
 ![image](https://github.com/user-attachments/assets/f510d40d-6f34-4c4a-863e-ea79ac22132c)
 
-Before fully solving the challenge, let’s explore another feature: `Suggestions`. This feature allows Sidekick to rename or modify code with more understandable names, based on the user's approval.
+Before fully solving the challenge, let’s explore another feature: `Suggestions`. This feature allows **Sidekick** to rename or modify code with more understandable names, based on the user's approval.
 
 ![image](https://github.com/user-attachments/assets/48c18e86-249d-475e-b575-00002822e497)
 
@@ -63,3 +63,19 @@ Ah, don’t know how to write code? No problem. Sidekick has you covered!
 ![image](https://github.com/user-attachments/assets/ec216e82-275b-4707-85a2-d0e8f5cb715c)
 
 Well, we used Sidekick to reverse the binary, write the code, and even fix its errors.
+
+## Challenge 2: Catbert Ransomware - Flare-On 11
+This challenge is quite difficult for Sidekick to solve and will require a lot of questions and nudges. So, I’ll move on to the point where I asked it to analyze the VM and create an enum.
+
+![image](https://github.com/user-attachments/assets/ca16c256-a73f-43ac-8f37-264f3825a29a)
+![image](https://github.com/user-attachments/assets/3b7d630c-3b0c-4d75-a978-b8b4475889cd)
+
+Well, I think it has identified most of the opcodes correctly. Let’s create the enum.
+
+![image](https://github.com/user-attachments/assets/4fea2fe2-bad5-47f9-a61b-6517f1a4259b)
+
+I didn’t like the naming, so I’ll ask it to rename it again.
+
+![image](https://github.com/user-attachments/assets/30c793e4-38ba-4313-b305-a2dfe79c31ec)
+
+Wow! That’s so much better. We can now ask it to write a disassembler, and we’ll be able to view the instructions. But I’ll leave that to you. Thanks for reading, and keep cracking!
